@@ -289,3 +289,10 @@ button::after{
     overflow: unset;
   }
 }
+@media screen and (max-width: 1640px) {
+  .post-inner{
+    margin-bottom: 2em;
+    width: 100%;
+    height: auto;
+  }
+}
