@@ -114,12 +114,13 @@ header{
 }
 .image{
   width: 100%;
-  max-height: 50vh;
+  max-height: 500px;
   display: block;
+  overflow: hidden;
 }
 .image img{
   width: 100%;
-  height: auto;
+  height: 60%;
   display: block;
 }
 .image h1{
@@ -170,11 +171,11 @@ justify-content: center;
   position: relative;
     float: left;
     margin-right: 20px;
+        max-width: 400px;
 }
 img{
   height: auto;
 width: 100%;
-max-width: 400px;
 display: block;
 }
 .date{
