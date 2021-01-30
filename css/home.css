@@ -113,9 +113,14 @@ main{
   color: #000;
 }
 .post-inner{
-  margin-bottom: 2em;
+  margin: 2em;
   max-width: 400px;
   height: auto;
+}
+#posts{
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 .content{
   font-size: 16px;
