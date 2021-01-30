@@ -123,13 +123,13 @@ header{
   height: 60%;
   display: block;
 }
-.image h1{
+.header-content h1{
   font-size: 18px;
   font-weight: bold;
   text-align: center;
   color: #fff;
 }
-.image p{
+.header-content p{
   padding: 2em;
   font-weight: 400;
   font-size: 14px;
@@ -139,7 +139,7 @@ header{
 .under-image{
   position: relative;
   z-index: 1;
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 }
 
 /* Posts  */
