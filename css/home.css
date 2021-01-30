@@ -173,11 +173,7 @@ justify-content: center;
     margin-right: 20px;
         max-width: 400px;
 }
-img{
-  height: auto;
-width: 100%;
-display: block;
-}
+
 .date{
   font-family: Lato;
   text-align: center;
