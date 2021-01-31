@@ -105,13 +105,10 @@ section{
 
 post{
   margin: 6em;
-  font-family: Lato;
-  font-weight: 400
-  color: #fff;
-  display: flex;
-  margin: 0 auto;
-  display: inline-flex;
-  align-content: center;
+font-family: Lato;
+font-weight: 400 color: #fff;
+display: flex;
+justify-content: center;
 }
 .cards{
   margin: 1em;
