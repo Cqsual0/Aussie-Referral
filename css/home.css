@@ -103,79 +103,51 @@ section{
 /* Header  */
 /* Posts  */
 
-main{
-  margin: 4em;
-  border-radius: 6px;
+post{
+  margin: 6em;
   font-family: Lato;
-  font-weight: 400;
-  color: #000;
+  font-weight: 400
+  color: #fff;
+  display: flex;
+  margin: 0 auto;
+  display: inline-flex;
+  align-content: center;
 }
-.post-inner{
-  margin: 2em;
+.cards{
+  margin: 1em;
+  border-radius: 6px;
+  background: orange;
   max-width: 400px;
   height: auto;
 }
-#posts{
-  display: flex;
-flex-wrap: wrap;
-justify-content: center;
+.card-banner{
+  max-width: 500px;
+  min-width: 500px;
+  height: auto;
+  display: block;
 }
-.content{
-  font-size: 16px;
-      font-weight: 400;
-      background: white;
-  overflow: hidden;
+.card-banner img{
+  max-width: 400px;
+  border-radius: 6px;
+  min-width: 400px;
 }
-.content img{
-  position: relative;
-    float: left;
-    margin-right: 20px;
-        max-width: 400px;
-}
-
-.date{
-  font-family: Lato;
+.card-body{
   text-align: center;
-  margin: 0 auto;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 1em;
+  padding: 15px;
 }
-.post-writing h1{
-  font-size: 18px;
-    font-weight: 600;
-    text-align: center;
+.card-body h1{
+  font-size: 22px;
+  font-weight: bolder;
+  padding: 8px;
 }
-.post-writing p{
-  font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    padding: 0.6em;
-    color: #000;
-    padding-bottom: 16px;
-}
-button{
+.card-body button{
   padding: 8px 10px;
-    background-color: #d9bc48;
-    font-family: Lato;
-    font-size: 16px;
-    font-weight: 600;
-    color: #000;
-    cursor: pointer;
-    margin: 0 auto;
-    border-radius: 3px;
-    display: block;
-    border: #d4b73fe0 4px solid;
-}
-button::after{
-  padding: 15px 7px 15px 0;
-  background-color: #fff;
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: 600;
-  color: black;
+  background: lightgray;
+  border: lightgray 2px solid;
+  margin: 15px;
   cursor: pointer;
 }
+
 
 
 /*FOOTER*/
