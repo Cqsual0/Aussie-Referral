@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  background: black;
+}
+.navbar{
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 50px;
+  cursor: pointer;
+}
+.menu-icon{
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+h1{
+  color: #fff;
+  font-size: 100px;
+}
+p{
+  color: #fff;
+  font-size: 11px;
+  line-height: 15px
+}
+button{
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 45px;
+}
+    }
+
+
+    /* Popup */
+
+
+    .popup {
+      text-align: center;
+      position: fixed;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: rgba(14, 14, 14, 0.452);
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.2s;
+    }
+    .popup .content {
+      background: #16182c;
+      max-width: 600px;
+      color: white;
+      margin: auto;
+      padding: 25px;
+      border-radius: 3px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
+      transform: scale(0);
+      transition: transform 0.3s;
+    }
+    .popup .content h1 {
+      font-size: 35px;
+      margin: 10px 0;
+      font-weight: lighter;
+      padding: 0;
+      max-width: 200px;
+      margin: auto;
+    }
+    .popup .content a {
+      text-decoration: none;
+      color: white;
+    }
+    .popup .content a button {
+      padding: 10px;
+      margin: 10px;
+      background-color: rgba(0, 0, 0, 0);
+      color: white;
+      border: 1px solid #f3f3f3;
+      font-size: 16px;
+      transition: background-color 0.2s;
+    }
+    .popup .content a button:hover {
+      background-color: #2b2836;
+      cursor: pointer;
+    }
