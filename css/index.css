@@ -86,6 +86,7 @@ button{
       visibility: hidden;
       opacity: 0;
       transition: all 0.2s;
+      z-index: 5;
     }
     .popup .content {
       background: #16182c;
@@ -97,6 +98,7 @@ button{
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
       transform: scale(0);
       transition: transform 0.3s;
+      z-index: 5;
     }
     .popup .content h1 {
       font-size: 35px;
@@ -105,10 +107,12 @@ button{
       padding: 0;
       max-width: 200px;
       margin: auto;
+      z-index: 5;
     }
     .popup .content a {
       text-decoration: none;
       color: white;
+      z-index: 5;
     }
     .popup .content a button {
       padding: 10px;
@@ -118,6 +122,7 @@ button{
       border: 1px solid #f3f3f3;
       font-size: 16px;
       transition: background-color 0.2s;
+      z-index: 5;
     }
     .popup .content a button:hover {
       background-color: #2b2836;
