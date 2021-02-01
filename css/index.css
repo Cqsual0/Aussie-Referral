@@ -192,3 +192,12 @@ height: 100%;
 
 
       /* Card */
+
+      .card{
+        margin: 6em;
+max-width: 300px;
+max-height: 300px;
+background: #535963;
+border-radius: 3px;
+padding: 20px;
+      }
