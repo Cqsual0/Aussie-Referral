@@ -8,15 +8,15 @@
   height: 100vh;
   background-position: center;
   background-size: cover;
-  padding-left: 8%;
-  padding-right: 8%;
   box-sizing: border-box;
   background: black;
 }
 .navbar{
   height: 12%;
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
+padding-left: 8%;
+padding-right: 8%;
 }
 .logo img{
   width: 50px;
