@@ -10,6 +10,7 @@
   background-size: cover;
   box-sizing: border-box;
   background: #101319;
+  overflow: hidden;
 }
 .navbar{
   height: 12%;
