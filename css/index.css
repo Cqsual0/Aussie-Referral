@@ -41,10 +41,6 @@ nav ul li a{
   color: #fff;
   font-size: 18px;
 }
-h1{
-  color: #fff;
-  font-size: 100px;
-}
 p{
   color: #fff;
   font-size: 11px;
@@ -125,3 +121,31 @@ button{
       background-color: #2b2836;
       cursor: pointer;
     }
+
+    /* Header */
+
+    header{
+      width: 100%;
+      display: block;
+      border: white 2px solid;
+      overflow: hidden;
+      margin: 0!important;
+    }
+
+  .header img{
+    height: 60vh;
+    width: 100%;
+    margin: 0!important;
+    display: block;
+  }
+  .header h1{
+      color: #fff;
+      font-size: 80px;
+  }
+  .header p{
+    line-height: 1.2;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+      /* Card */
