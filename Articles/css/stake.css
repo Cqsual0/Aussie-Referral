@@ -3,6 +3,9 @@
   padding: 0;
   font-family: 'Exo 2', sans-serif;
 }
+body{
+  background: #101319;
+}
 .container{
   width: 100%;
   height: 100vh;
@@ -62,6 +65,15 @@ button{
     list-style: none;
     display: inline-block;
     margin-left: 45px;
+}
+article {
+    margin: 1em;
+    border-radius: 8px;
+    font-family: 'exo 2', sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+    line-height: 1.2;
 }
     }
 
