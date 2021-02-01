@@ -192,12 +192,34 @@ height: 100%;
 
 
       /* Card */
-
-      .card{
-        margin: 6em;
-max-width: 300px;
-max-height: 300px;
-background: #535963;
-border-radius: 3px;
-padding: 20px;
-      }
+      .main-content {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
+.card {
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 40px;
+    position: relative;
+    color: #f4f4f4;
+    max-width: 300px;
+    max-height: 415px;
+    background: #121321;
+}
+.card, img {
+    border-radius: 6px 6px 0 0;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 70%);
+    width: 100%;
+}
+.outside {
+    max-width: 300px;
+    max-height: 415px;
+    background: #121321;
+    border-radius: 6px;
+    position: relative;
+}
