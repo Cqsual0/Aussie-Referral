@@ -133,10 +133,10 @@ button{
     }
 
   .header img{
-    height: 60vh;
-    width: 100%;
-    margin: 0!important;
-    display: block;
+    width:100%;
+height:550px;
+object-fit:cover;
+object-position:50% 50%;
   }
   .header h1{
       color: #fff;
