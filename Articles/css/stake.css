@@ -75,6 +75,12 @@ article {
     text-align: left!important;
     line-height: 1.2!important;
 }
+.blog-post img{
+  display: inline-block;
+  max-width: 100%!important;
+  height: auto;
+  margin: 0 auto;
+}
     }
 
 
@@ -175,4 +181,19 @@ article {
     }
     li{
       padding-bottom: 10px;
+    }
+    .blog-post img{
+      display: flow-root;
+      max-width: 50%;
+      height: auto;
+      margin: 0 auto;
+      padding: 0px 20px 20px 0px;
+    }
+    .stake-phone img{
+      display: flow-root;
+      max-width: 50%;
+      height: auto;
+      margin: 0 auto;
+      padding: 0px 20px 20px 0px;
+      float: right!important;
     }
