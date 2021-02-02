@@ -198,9 +198,7 @@ height: 100%;
 
 
       /* Card */
-      .main-content {
-    padding-left: 50px;
-    padding-right: 50px;
+.main-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
