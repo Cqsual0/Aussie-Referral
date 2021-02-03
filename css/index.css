@@ -261,16 +261,7 @@ ul{
 	margin: 40px 0;
 	font-weight: 500;
 	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:120px;
-	bottom: -10px;
-	background-color: #e91e63;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
+  text-decoration: underline;
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
@@ -311,16 +302,6 @@ ul{
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
-}
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 200px;
-    bottom: -10px;
-    background-color: #e91e63;
-    height: 2px;
-    box-sizing: border-box;
-    width: 50px;
 }
 }
 @media(max-width: 574px){
