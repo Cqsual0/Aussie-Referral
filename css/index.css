@@ -238,8 +238,10 @@ height: 100%;
 	margin:auto;
 }
 .row-footer{
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
 }
 ul{
 	list-style: none;
@@ -256,14 +258,14 @@ ul{
 	font-size: 18px;
 	color: #ffffff;
 	text-transform: capitalize;
-	margin-bottom: 35px;
+	margin: 40px 0;
 	font-weight: 500;
 	position: relative;
 }
 .footer-col h4::before{
 	content: '';
 	position: absolute;
-	left:0;
+	left:120px;
 	bottom: -10px;
 	background-color: #e91e63;
 	height: 2px;
@@ -309,6 +311,16 @@ ul{
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
+}
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 200px;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
 }
 }
 @media(max-width: 574px){
