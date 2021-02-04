@@ -3,6 +3,13 @@
   padding: 0;
   font-family: 'Exo 2', sans-serif;
 }
+section img{
+  width: 100%;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 .container-nav{
   width: 100%;
   background-position: center;
