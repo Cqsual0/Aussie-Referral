@@ -3,12 +3,8 @@
   padding: 0;
   font-family: 'Exo 2', sans-serif;
 }
-section img{
-  width: 100%;
-    background-position: center;
-    background-size: cover;
-    box-sizing: border-box;
-    overflow: hidden;
+body{
+  background: #101319;
 }
 .container-nav{
   width: 100%;
@@ -204,7 +200,6 @@ height: 100%;
       /* Card */
 .main-content {
     display: flex;
-    background: #101319;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0;
