@@ -202,8 +202,9 @@ height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0;
-    text-align: center;
+    margin: 0 auto;
+text-align: center;
+max-width: 1400px;
 }
 .card {
     border-radius: 6px;
