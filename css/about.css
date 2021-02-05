@@ -44,11 +44,6 @@ nav ul li a{
   color: #fff;
   font-size: 18px;
 }
-p{
-  color: #fff;
-  font-size: 11px;
-  line-height: 15px
-}
 button{
   width: 180px;
   color: #000;
@@ -91,23 +86,23 @@ section img{
   border-radius: 6px;
 }
 .inside{
-  color: #fff;
-  margin: 2em;
+  color: #101319;
+padding: 3em;
   font-weight: 400;
   text-align: justify;
 }
 .inside p{
-  font-size: 14px;
-  font-weight: 400;
-  color: #f8f8f8;
+  font-size: 18px;
+font-weight: 500;
+color: #000000;
+line-height: 1.4;
 }
 .inside span{
   font-weight: 600!important;
   color: #667ffb;
 }
 .span-class h3{
-  margin: 0.3em 0em 1.8em 2em;
-font-size: 28px;
+  font-size: 18px;
 }
 .about {
 }
@@ -117,10 +112,32 @@ font-size: 28px;
     font-weight: 600;
 }
 h1{
-  margin: 02em 0em 0em 2em;
-    font-size: 28px;
-    color: #101319;
+  padding-bottom: 4px;
+font-size: 28px;
+color: #101319;
 }
+.mission{
+  background: aqua;
+padding: 1.2em;
+margin: 2em 0 2em 0;
+}
+.mn-content h2{
+  text-align: center;
+padding-bottom: 0.6em;
+}
+.mn-content h4{
+  text-align: center;
+  font-size: 18px;
+}
+.mission{
+  background: #fff;
+    padding: 1.2em;
+    margin: 2em 0 2em 0;
+    box-shadow: 5px 3px 15px 5px #757575;
+    border-radius: 5px;
+}
+
+
 /* Footer */
 
 .container-footer{
