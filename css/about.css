@@ -78,6 +78,7 @@ section{
   width: 20%;
   float: right;
   display: block;
+  padding: 1em;
   position: relative;
 }
 .head-content{
@@ -151,12 +152,12 @@ padding-bottom: 0.6em;
 }
 .team{
   text-align: center;
-    margin: 2em 0 2em 0;
+    margin: 6em 0 2em 0;
 }
 .team-row{
-  margin: 0 auto;
-    align-content: center;
-    display: inline-block;
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Footer */
