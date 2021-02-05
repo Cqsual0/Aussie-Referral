@@ -197,6 +197,12 @@ h1 {
     display: flex;
     float: none;
   }
+  .inside {
+    color: #101319;
+    padding: 1.2em;
+    font-weight: 400;
+    text-align: center;
+  }
 }
 
 /* Footer */
