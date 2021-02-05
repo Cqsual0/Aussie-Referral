@@ -73,7 +73,7 @@ section{
   font-weight: 600;
   font-family: 'Exo 2', sans-serif;
 }
-section img{
+.raiz img{
   height: 20%;
   width: 20%;
   float: right;
@@ -136,8 +136,8 @@ padding-bottom: 0.6em;
     box-shadow: 5px 3px 15px 5px #757575;
     border-radius: 5px;
 }
-.image-conainer{
-  max-height: 50px;
+.team img{
+  max-height: 100px;
   height: auto;
   min-height: 50px;
   margin: 0 auto;
