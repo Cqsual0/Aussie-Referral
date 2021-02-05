@@ -143,6 +143,20 @@ padding-bottom: 0.6em;
   margin: 0 auto;
   border-radius: 50px;
 }
+.team-box{
+  background: #fff;
+    width: 350px;
+    padding: 20px;
+}
+.team{
+  text-align: center;
+    margin: 2em 0 2em 0;
+}
+.team-row{
+  margin: 0 auto;
+    align-content: center;
+    display: inline-block;
+}
 
 /* Footer */
 
