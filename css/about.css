@@ -68,7 +68,7 @@ button{
     margin-left: 25px;
 }
     }
-
+/* About */
 section{
   height: 100%;
   width: 100%;
@@ -94,7 +94,30 @@ section img{
   color: #fff;
   padding: 0.4em;
   font-weight: 400;
+  text-align: justify;
 }
+.inside p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #f8f8f8;
+}
+.inside span{
+  font-weight: 600!important;
+}
+.span-class h3{
+  font-size: 14px;
+  font-weight: 400;
+  color: #f8f8f8;
+}
+.about {
+  margin: 0.6em;
+}
+.about h2{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 /* Footer */
 
 .container-footer{
