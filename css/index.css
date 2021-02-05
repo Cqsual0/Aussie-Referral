@@ -198,6 +198,18 @@ height: 100%;
 
 
       /* Card */
+
+      .text-posts{
+        text-align: center;
+        padding: 20px 0;
+        color: #fff;
+        font-weight: bold;
+      }
+      .under-line{
+        width: 120px;
+        width: 20px;
+        background: red;
+      }
 .main-content {
     display: flex;
     flex-wrap: wrap;
