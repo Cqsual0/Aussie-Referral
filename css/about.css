@@ -87,12 +87,12 @@ section img{
 }
 .head-content{
   margin: 2em;
-  background: #c8c83;
+  background: #dedede;
   border-radius: 6px;
 }
 .inside{
   color: #fff;
-  padding: 0.4em;
+  margin: 2em;
   font-weight: 400;
   text-align: justify;
 }
@@ -103,21 +103,24 @@ section img{
 }
 .inside span{
   font-weight: 600!important;
+  color: #667ffb;
 }
 .span-class h3{
-  font-size: 14px;
-  font-weight: 400;
-  color: #f8f8f8;
+  margin: 0.3em 0em 1.8em 2em;
+font-size: 28px;
 }
 .about {
-  margin: 0.6em;
 }
 .about h2{
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
+  color: #000;
+    font-size: 24px;
+    font-weight: 600;
 }
-
+h1{
+  margin: 02em 0em 0em 2em;
+    font-size: 28px;
+    color: #101319;
+}
 /* Footer */
 
 .container-footer{
