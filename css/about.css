@@ -136,7 +136,13 @@ padding-bottom: 0.6em;
     box-shadow: 5px 3px 15px 5px #757575;
     border-radius: 5px;
 }
-
+.image-conainer{
+  max-height: 50px;
+  height: auto;
+  min-height: 50px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
 
 /* Footer */
 
