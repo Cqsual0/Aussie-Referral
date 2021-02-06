@@ -53,8 +53,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
 
-  <!-- Font -->
+  <!-- Import -->
   <link rel="stylesheet" href="css/about.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
 </head>
 
 <body>
@@ -153,40 +156,29 @@
             </div>
           </div>
 
-          <!--
+          <div class="middle">
+           <div class="counting-sec">
+             <div class="inner-width">
+               <div class="col">
+                 <i class="far fa-smile-wink"></i>
+                 <div class="num">1234</div>
+                 Speakers
+               </div>
 
-      <div class="impact-number">
-        <div class="number-row">
-          <div class="impact-card">
-            <div class="icon">
-              <img src="" alt="">
-            </div>
-            <h2>Motivated to invest</h2>
-            <br>
-            <h3>number</h3>
+               <div class="col">
+                 <i class="fas fa-briefcase"></i>
+                 <div class="num">147</div>
+                 Services
+               </div>
+
+               <div class="col">
+                 <i class="far fa-money-bill-alt"></i>
+                 <div class="num">19</div>
+                 Earnt
+               </div>
+             </div>
+           </div>
           </div>
-
-          <div class="impact-card">
-            <div class="icon">
-              <img src="" alt="">
-            </div>
-            <h2>Motivated to invest</h2>
-            <br>
-            <h3>number</h3>
-          </div>
-
-          <div class="impact-card">
-            <div class="icon">
-              <img src="" alt="">
-            </div>
-            <h2>Motivated to invest</h2>
-            <br>
-            <h3>number</h3>
-          </div>
-        </div>
-      </div>
-
--->
 
         </div>
       </div>
@@ -237,6 +229,8 @@
 
 
 </body>
-<script type="text/javascript" src="java.js"></script>
+<script type="text/javascript" src="java.js">
+  $(".num").counterUp({delay:10,time:1000});
+</script>
 
 </html>
