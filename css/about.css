@@ -186,6 +186,12 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
 }
+.under-line {
+  width: 120px;
+  height: 3px;
+  background: #7979e2;
+  margin: 0 auto;
+}
 
 @media(max-width: 767px) {
   .raiz img {
