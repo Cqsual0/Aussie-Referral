@@ -236,15 +236,6 @@ h1 {
   display: flex;
   align-items: center;
 }
-.counter-up::before{
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0,0,0,0.8);
-}
 .counter-up .content{
   z-index: 1;
   position: relative;
@@ -256,7 +247,7 @@ h1 {
   justify-content: space-between;
 }
 .counter-up .content .box{
-  border: 1px dashed rgba(255,255,255,0.6);
+  background: #fff;
   width: calc(25% - 30px);
   border-radius: 5px;
   display: flex;
@@ -267,17 +258,17 @@ h1 {
 }
 .content .box .icon{
   font-size: 48px;
-  color: #e6e6e6;
+  color: #000000;
 }
 .content .box .counter{
   font-size: 50px;
   font-weight: 500;
-  color: #f2f2f2;
+  color: #000000;
   font-family: sans-serif;
 }
 .content .box .text{
   font-weight: 400;
-  color: #ccc;
+  color: #000;
 }
 @media screen and (max-width: 1036px) {
   .counter-up{
