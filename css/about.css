@@ -135,6 +135,10 @@ h1 {
   padding-bottom: 4px;
   font-size: 28px;
   color: #101319;
+    text-align: center;
+}
+.span-class{
+    text-align: center;
 }
 
 .mission {
