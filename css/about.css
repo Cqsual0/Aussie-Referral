@@ -228,7 +228,6 @@ h1 {
 }
 .counter-up{
   background: url("images/bg-2.jpeg") no-repeat;
-  min-height: 50vh;
   background-size: cover;
   background-attachment: fixed;
   padding: 0 50px;
