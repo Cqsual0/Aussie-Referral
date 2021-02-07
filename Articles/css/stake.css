@@ -191,8 +191,9 @@ article {
 }
 
 .blog-post p {
-  font-size: 18px;
-  line-height: 1.3em;
+  font-size: 20px;
+    line-height: 2em;
+    font-family: sans-serif;
 }
 
 ul {
