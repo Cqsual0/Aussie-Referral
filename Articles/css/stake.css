@@ -6,18 +6,55 @@
   box-sizing: border-box;
 }
 
+.container-nav {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.navbar {
+      background: #040125;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  padding-left: 8%;
+  padding-right: 8%;
+  height: 10vh;
+}
+
+.logo img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
 header {
   width: 100%;
   margin-bottom: 50px;
-}
-
-.bg-wrapper {
-  height: 50px;
-  width: 100%;
-  background: url("https://images.unsplash.com/photo-1533236897111-3e94666b2edf");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .info-wrapper {
@@ -30,7 +67,7 @@ header {
 }
 
 .headline {
-  font-size: clamp(32px, 10vw, 80px);
+  font-size: clamp(32px, 4vw, 80px);
 }
 
 .subhead {
@@ -74,6 +111,7 @@ header {
 section {
   width: 75%;
   margin: 50px auto;
+  padding: 8px;
 }
 
 section h2 {
@@ -84,17 +122,24 @@ section h2 {
 section p {
   font-family: "Poppins", sans-serif;
   font-size: clamp(16px, 2.8vw, 18px);
-  margin: 15px auto;
+  line-height: 1.6;
 }
 
 figure {
-  width: 90%;
-  max-width: 400px;
   margin: 10px auto;
 }
-
+.horizontal{
+  display: block;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      float: none;
+      height: auto;
+}
 figure img {
-  max-width: 100%;
+  float: left;
+  height: 300px;
+  margin: 0 2em 2em 0;
 }
 
 figure figcaption {
@@ -145,7 +190,10 @@ aside p {
 }
 
 ul {
-  list-style: none;
+  font-family: "Poppins", sans-serif;
+    font-size: clamp(16px, 2.8vw, 18px);
+    line-height: 2.2;
+    list-style: initial;
 }
 
 .footer {
