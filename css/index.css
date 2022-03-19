@@ -41,9 +41,9 @@ img {
 .btn {
   display: inline-block;
   color: white;
-  background-color: #2acfcf;
+  background-color: #2acfcf!important;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 700!important;
   border: none;
   outline: none;
   cursor: pointer;
@@ -729,6 +729,7 @@ padding: 30px 25px 30px;
   display: flex;
   width: 200px;
   justify-content: center;
+  text-decoration: none;
 }
 
 @media (max-width: 666px) {
