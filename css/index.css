@@ -41,7 +41,7 @@ img {
 .btn {
   display: inline-block;
   color: white;
-  background-color: #2acfcf!important;
+  background-color: #f96301!important;
   text-transform: capitalize;
   font-weight: 700!important;
   border: none;
@@ -144,7 +144,7 @@ img {
 }
 
 .header .logo img {
-  height: 30px;
+  height: 108px;
 }
 
 .header .main-navgation {
