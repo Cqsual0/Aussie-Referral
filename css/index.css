@@ -650,7 +650,7 @@ img {
 .more-features-content .feature::after {
   position: absolute;
   content: "";
-  background: #2acfcf;
+  background: #f96301;
 }
 
 @media (max-width: 666px) {
@@ -886,7 +886,7 @@ padding: 30px 25px 30px;
 
 .attribution .outer-link {
   font-size: 15px;
-  color: #2acfcf;
+  color: #f96301;
   margin-left: 2px;
   cursor: pointer;
 }
