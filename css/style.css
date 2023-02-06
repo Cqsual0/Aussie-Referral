@@ -261,6 +261,42 @@ header.shadow .logo {
 }
 .share-title {
   font-size: 1.1rem;
+  margin: 0 2px;
+}
+/* Table */
+table{
+  border: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  margin: 40px 0 40px 0;
+  color: #13151b;
+    font-size: 14px;
+    line-height: 1.5;
+    overflow-x: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.comparison-table__tick img{
+  width: 14%;
+  height: auto;
+}
+td img{
+  width: 14%;
+  height: auto;
+}
+th{
+  padding: 0 20px
+}
+.comparison-table__name{
+  background: #0072ed;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    height: 72px;
+    hyphens: auto;
+    padding: 0 15px;
 }
 /* Responsive */
 @media (max-width: 1060px) {
